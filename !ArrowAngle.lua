@@ -16,7 +16,7 @@ if LocalPlayer == nil then
 end
 
 local angle = LocalPlayer:GetPropFloat("m_flLowerBodyYawTarget") - angle[2]
-local font = draw.CreateFont("", 44);
+local font = draw.CreateFont("Verdana", 44);
 draw.SetFont(font);
 
 local w, h = draw.GetScreenSize()
